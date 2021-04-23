@@ -1,8 +1,8 @@
 package com.chen.letcode;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
+import java.nio.file.OpenOption;
+import java.util.*;
+import java.util.regex.Pattern;
 
 /**
  * @ClassName: chen-tool
@@ -47,6 +47,7 @@ public class ThirtyOne {
     }
 
     public static void main(String[] args) {
-        nextPermutation(new int[]{1, 3, 2});
+        String email="d228369751@qq.com";
+        System.out.println(email.matches("(^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)+$)"));
     }
 }
